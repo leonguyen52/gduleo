@@ -12,7 +12,7 @@ size=$(du -sh $BACKUP_DIR | awk '{ print $1}')
 
 echo "Start uploading seeding folder";
 echo "This folder will remain on VPS after uploading";
-/usr/sbin/rclone copy $BACKUP_DIR "gdrive:$UPLOAD_NAME/$TIMESTAMP" --stats=10s -v
+/usr/sbin/rclone copy $BACKUP_DIR "gdrive:$UPLOAD_NAME/$TIMESTAMP" --stats=1s -v
 echo "Finished";
 echo '';
 
