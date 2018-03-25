@@ -12,7 +12,7 @@ size=$(du -sh $BACKUP_DIR | awk '{ print $1}')
 
 echo "Start moving folder to Gdrive";
 echo "All files in this folder will be moved to GDrive after uploading";
-/usr/sbin/rclone move $BACKUP_DIR "gdrive:$UPLOAD_NAME/$TIMESTAMP" --stats=10s -v
+/usr/sbin/rclone move $BACKUP_DIR "gdrive:$UPLOAD_NAME/$TIMESTAMP" --stats=1s -v
 echo "Finished";
 echo '';
 
