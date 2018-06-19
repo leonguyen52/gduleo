@@ -4,6 +4,15 @@ Basically I will use it on my Windows VPS to start uploading after getting files
 This tool mainly is based on rclone and its copy function and bat files are just simple code.
 You can freely change code according to your needs or contribute to my git.
 
+Setup Rclone & download my script on linux x64:
+
+```
+wget https://raw.githubusercontent.com/leonguyen52/gduleo/master/linux-uploadmove.sh
+wget https://raw.githubusercontent.com/leonguyen52/gduleo/master/linux-uploadcopy.sh
+wget https://raw.githubusercontent.com/leonguyen52/gduleo/master/linux-x64-setup.sh && chmod +x linux-x64-setup.sh && bash linux-x64-setup.sh
+```
+
+
 There are 2 parts on setting and using this tool as follow:
 
 A - Setting Gdrive Permission 
