@@ -5,7 +5,7 @@
 UPLOAD_NAME=Upload
 
 TIMESTAMP=$(date +"%F")
-BACKUP_DIR="/root/Downloads2"
+BACKUP_DIR="/root/Downloads"
 SECONDS=0
 
 size=$(du -sh $BACKUP_DIR | awk '{ print $1}')
