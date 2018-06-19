@@ -5,10 +5,9 @@ This tool mainly is based on rclone and its copy function and bat files are just
 You can freely change code according to your needs or contribute to my git.
 
 Setup Rclone & download my script on linux x64:
-
 ```
-wget https://raw.githubusercontent.com/leonguyen52/gduleo/master/linux-uploadmove.sh
-wget https://raw.githubusercontent.com/leonguyen52/gduleo/master/linux-uploadcopy.sh
+wget https://raw.githubusercontent.com/leonguyen52/gduleo/master/linux-uploadmove.sh && chmod +x linux-uploadmove.sh
+wget https://raw.githubusercontent.com/leonguyen52/gduleo/master/linux-uploadcopy.sh && chmod +x linux-uploadcopy.sh
 wget https://raw.githubusercontent.com/leonguyen52/gduleo/master/linux-x64-setup.sh && chmod +x linux-x64-setup.sh && bash linux-x64-setup.sh
 ```
 
